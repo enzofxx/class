@@ -1,0 +1,20 @@
+uuid: 59cd7d9c-00e3-47f8-93f0-b39adb1d0102
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cbp_theme
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: cbp_theme_local_actions
+theme: cbp_theme
+region: content
+weight: -1
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

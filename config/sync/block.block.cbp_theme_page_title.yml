@@ -1,0 +1,20 @@
+uuid: c9de7bab-ebec-4637-bf7c-fdb10940a9f3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cbp_theme
+_core:
+  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+id: cbp_theme_page_title
+theme: cbp_theme
+region: header
+weight: -1
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title Super page'
+  provider: core
+  label_display: '0'
+visibility: {  }
